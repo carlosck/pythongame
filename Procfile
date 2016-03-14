@@ -1,1 +1,1 @@
-web: python game/manage.py runserver 
+web: python game/manage.py runserver bingos.herokuapp.com:8000
