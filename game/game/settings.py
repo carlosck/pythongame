@@ -78,15 +78,25 @@ WSGI_APPLICATION = 'game.wsgi.application'
 # https://docs.djangoproject.com/en/1.9/ref/settings/#databases
 
 DATABASES = {
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.mysql',
+    #     'DATABASE_HOST' : '/Applications/MAMP/tmp/mysql/mysql.sock',
+    #     'NAME': 'bingo',
+    #     'USER': 'bingo_user',
+    #     'PASSWORD': 'test',
+    #     'unix_socket': '/Applications/MAMP/tmp/mysql/mysql.sock',
+    #     'HOST': '127.0.0.1',                 # Empty for localhost
+    #     'PORT': '8889',                 # Set to empty string for default.
+    # }
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'DATABASE_HOST' : '/Applications/MAMP/tmp/mysql/mysql.sock',
-        'NAME': 'bingo',
-        'USER': 'bingo_user',
-        'PASSWORD': 'test',
+        'NAME': 'heroku_d225e8d89c9a61c',
+        'USER': 'b9664295e6f1e5',
+        'PASSWORD': '61281b63',
         'unix_socket': '/Applications/MAMP/tmp/mysql/mysql.sock',
-        'HOST': '127.0.0.1',                 # Empty for localhost
-        'PORT': '8889',                 # Set to empty string for default.
+        'HOST': 'us-cdbr-iron-east-03.cleardb.net',                 # Empty for localhost
+        'PORT': '',                 # Set to empty string for default.
     }
 }
 DATABASE_OPTIONS = {
