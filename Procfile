@@ -1,1 +1,1 @@
-web: gunicorn game:app
+web: gunicorn -k flask_sockets.worker flaskserversocket:app
